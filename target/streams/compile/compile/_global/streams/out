@@ -1,0 +1,14 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/njm1688/Project/adis/tavisca/src/main/scala/domain/Order.scala:18:48: value withFilter is not a member of Either[domain.OrderContainsAllIngredients.type,(domain.Menu, List[domain.Ingredient])][0m
+[0m[[0m[31merror[0m] [0m[0m      (m, i) <- checkForAllExclusiveIngredients(menu, ingredientForExclusion)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/njm1688/Project/adis/tavisca/src/main/scala/domain/Order.scala:19:19: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: domain.Menu[0m
+[0m[[0m[31merror[0m] [0m[0m    } yield Order(m, i)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/njm1688/Project/adis/tavisca/src/main/scala/domain/Order.scala:19:22: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[domain.Ingredient][0m
+[0m[[0m[31merror[0m] [0m[0m    } yield Order(m, i)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
